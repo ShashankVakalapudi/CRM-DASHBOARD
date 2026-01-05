@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SalesPro CRM Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="page-title">CRM DASHBOARD</div>
+
+<div class="app">
+
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <div class="logo">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ff5a36" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="3"></circle>
+          <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+        </svg>
+        <span>SalesPro</span>
+      </div>
+    </div>
+
+    <nav>
+      <a href="#" class="active">Dashboard</a>
+      <a href="#">Reports</a>
+      <a href="#">Settings</a>
+      <a href="#">Notifications</a>
+      <a href="#">Help</a>
+    </nav>
+  </aside>
+
+  <main>
+
+    <div class="header">
+      <div class="title-group">
+        <h1>
+          Analytics and sales
+          <svg class="dropdown-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </h1>
+        <span class="status">
+          <span class="dot"></span>Active
+        </span>
+      </div>
+
+      <div class="header-actions">
+        <svg class="icon action-icon" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <svg class="icon action-icon" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="3" width="7" height="7"></rect>
+          <rect x="14" y="3" width="7" height="7"></rect>
+          <rect x="14" y="14" width="7" height="7"></rect>
+          <rect x="3" y="14" width="7" height="7"></rect>
+        </svg>
+        <img class="profile" src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="Profile">
+      </div>
+    </div>
+
+    <div class="participants">
+      <div class="avatars">
+        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=64&q=80">
+        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&auto=format&fit=crop&w=64&q=80">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=64&q=80">
+        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=64&q=80">
+      </div>
+      <span>Alice, Bob, Charlie, Dana +12 others</span>
+    </div>
+
+    <div class="tabs-row">
+      <div class="tabs">
+        <span class="active">Overview</span>
+        <span>Reports</span>
+        <span>Settings</span>
+      </div>
+      <div class="share-actions">
+        <button class="share-btn">Share</button>
+        <button class="more-btn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="1"></circle>
+            <circle cx="19" cy="12" r="1"></circle>
+            <circle cx="5" cy="12" r="1"></circle>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <section class="stats">
+      <div class="stat-card">
+        <div class="stat-header">
+          <p>Total Sales</p>
+          <div class="dots">•••</div>
+        </div>
+        <h2>$50,000</h2>
+        <span class="change positive">+5%</span>
+      </div>
+      
+      <div class="stat-card">
+        <div class="stat-header">
+          <p>New Leads</p>
+          <div class="dots">•••</div>
+        </div>
+        <h2>120</h2>
+        <span class="change positive">+10%</span>
+      </div>
+      
+      <div class="stat-card">
+        <div class="stat-header">
+          <p>Closed Deals</p>
+          <div class="dots">•••</div>
+        </div>
+        <h2>45</h2>
+        <span class="change positive">+7%</span>
+      </div>
+      
+      <div class="stat-card">
+        <div class="stat-header">
+          <p>Pending Deals</p>
+          <div class="dots">•••</div>
+        </div>
+        <h2>15</h2>
+        <span class="change negative">-3%</span>
+      </div>
+    </section>
+
+    <h3 class="section-title">Monthly Performance</h3>
+
+    <section class="charts">
+
+      <div class="chart-card">
+        <div class="chart-head">
+          <div class="chart-info">
+            <span class="chart-label">Sales Target</span>
+            <div class="chart-number">75% <small>+15%</small></div>
+          </div>
+          <span class="dots">•••</span>
+        </div>
+
+        <svg viewBox="0 0 520 220" preserveAspectRatio="none" class="area-chart-svg">
+          <g class="grid">
+            <line x1="0" y1="50" x2="520" y2="50"/>
+            <line x1="0" y1="90" x2="520" y2="90"/>
+            <line x1="0" y1="130" x2="520" y2="130"/>
+            <line x1="0" y1="170" x2="520" y2="170"/>
+          </g>
+
+          <g class="labels">
+            <text x="0" y="54">50K</text>
+            <text x="0" y="94">40K</text>
+            <text x="0" y="134">30K</text>
+            <text x="0" y="174">20K</text>
+            <text x="0" y="214">10K</text>
+            
+            <text x="40" y="215">Jan</text>
+            <text x="250" y="215">Feb</text>
+            <text x="460" y="215">Mar</text>
+          </g>
+
+          <defs>
+            <linearGradient id="fillArea" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#ff5a36" stop-opacity="0.35"/>
+              <stop offset="100%" stop-color="#ff5a36" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+
+          <path class="area" fill="url(#fillArea)"
+            d="M40 170 
+               L80 166 
+               C110 160, 140 120, 160 110
+               C180 100, 200 90, 230 95
+               L260 125
+               L300 128
+               L330 120
+               L360 130
+               L400 120
+               L440 128
+               L480 132
+               V 220 L 40 220 Z" 
+          />
+          <path class="line" fill="none" stroke="#ff5a36" stroke-width="2.5"
+            d="M40 170 
+               L80 166 
+               C110 160, 140 120, 160 110
+               C180 100, 200 90, 230 95
+               L260 125
+               L300 128
+               L330 120
+               L360 130
+               L400 120
+               L440 128
+               L480 132"
+          />
+        </svg>
+      </div>
+
+      <div class="chart-card">
+        <div class="chart-head">
+          <div class="chart-info">
+            <span class="chart-label">Customer Retention</span>
+            <div class="chart-number">30% <small>+8%</small></div>
+          </div>
+          <span class="dots">•••</span>
+        </div>
+
+        <svg viewBox="0 0 520 220" preserveAspectRatio="none" class="bar-chart-svg">
+          <g class="grid">
+            <line x1="0" y1="50" x2="520" y2="50"/>
+            <line x1="0" y1="90" x2="520" y2="90"/>
+            <line x1="0" y1="130" x2="520" y2="130"/>
+            <line x1="0" y1="170" x2="520" y2="170"/>
+          </g>
+
+          <g class="labels">
+            <text x="0" y="54">60%</text>
+            <text x="0" y="94">50%</text>
+            <text x="0" y="134">40%</text>
+            <text x="0" y="174">30%</text>
+            <text x="0" y="214">20%</text>
+
+            <text x="50" y="215">Jan</text>
+            <text x="125" y="215">Feb</text>
+            <text x="200" y="215">Mar</text>
+            <text x="275" y="215">Apr</text>
+            <text x="350" y="215">May</text>
+            <text x="425" y="215">Jun</text>
+          </g>
+
+          <g class="bars">
+            <rect x="45" y="145" width="30" height="55"/>  
+            <rect x="120" y="115" width="30" height="85"/> 
+            <rect x="195" y="85" width="30" height="115"/> 
+            <rect x="270" y="75" width="30" height="125"/> 
+            <rect x="345" y="90" width="30" height="110"/> 
+            <rect x="420" y="55" width="30" height="145"/> 
+          </g>
+        </svg>
+      </div>
+
+    </section>
+
+  </main>
+</div>
+
+</body>
+</html>
